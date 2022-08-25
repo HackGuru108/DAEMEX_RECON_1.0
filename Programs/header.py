@@ -4,7 +4,7 @@ import requests
 
 
 def Header(Host):
-    response = requests.get('https://codesprout.in')
+    response = requests.get(Host)
   
 
     print(response)
