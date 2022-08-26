@@ -20,5 +20,7 @@ def sslcert_info(Host):
         with context.wrap_socket(sock, server_hostname = hostname) as ssock:
 
             certificate = ssock.getpeercert()
-
+    print("\n====================================================================\n")
+    print(f'Following is SSL_CERTIFICATE Information of {Host} \n')
     print(certificate)
+    

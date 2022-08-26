@@ -10,6 +10,8 @@ port_max = int(port_range[-1])
 
 def portscan(Host):
     # Basic socket port scanning
+    print("\n====================================================================\n")
+    print(f'Following is the Port scan results of {Host} Domain:\n')
     Target_ip=socket.gethostbyname(Host)
     for port in range(port_min, port_max + 1):
     
@@ -32,3 +34,4 @@ def portscan(Host):
     for port in open_ports:
    
         print(f"Port {port} is open on {Target_ip}.")
+    

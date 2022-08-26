@@ -3,10 +3,9 @@
 
 import subprocess
 
-
 #getting the mail server Records
 def Dnsdetails(Host):
-
+    print("\n====================================================================\n")
     print("\n[+] The Mail Sever Records are: [+]")
     subprocess.call(["host", "-t", "mx",Host])
     print()
@@ -18,4 +17,4 @@ def Dnsdetails(Host):
     print("[+] The Name Server Records are: [+]")
     subprocess.call(["nslookup",Host])
     print()
-    print("\n===================================================================\n")
+    

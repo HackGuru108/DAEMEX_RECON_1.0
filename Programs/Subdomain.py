@@ -2,6 +2,9 @@ import requests
 from colorama import Fore
 
 def Subdomain_enum(Host):
+
+    print("\n====================================================================\n")
+    print(f'Following is the Subdomains of {Host}\n')
     domain =Host
 
     file = open("Subdomains.txt")
@@ -31,3 +34,4 @@ def Subdomain_enum(Host):
         with open("Found_Subdomains.txt", "w") as f:
             for subdomain in Found_subdomains:
                 print(subdomain, file=f)
+    
