@@ -8,6 +8,7 @@ from Programs import whoisdetail
 from Programs import Subdomain
 from Programs import ssl_info
 
+
 import socket
 import ssl
 import requests
@@ -20,7 +21,8 @@ import datetime
 import smtplib
 import whois
 from colorama import Fore
-from Programs.ssl_info import sslcert_info
+import threading
+
 
 
 print("Welcome to Daemex Automation Reconnaissance Tool:\n")
