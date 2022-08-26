@@ -2,10 +2,11 @@ socket
 ssl
 requests
 subprocess
-requests
 re
 urllib.request 
 datetime
 smtplib
 whois
 colorama 
+waybackpy
+threading
