@@ -104,6 +104,7 @@ corp
 corporate
 correo
 correoweb
+courses
 cp
 cpanel
 crm
@@ -115,6 +116,7 @@ d
 da
 data
 database
+databases
 db
 db1
 db2
@@ -151,9 +153,9 @@ dns4
 doc
 docs
 domain
-domain-controller
 domainadmin
 domaincontrol
+domain-controller
 domaincontroller
 domaincontrolpanel
 domainmanagement
@@ -179,11 +181,13 @@ es
 event
 events
 ex
+exampapers
 example
 examples
 exchange
 external
 extranet
+ezproxy
 f
 facebook
 faq
@@ -320,6 +324,7 @@ labs
 ldap
 legacy
 lib
+libguides
 library
 link
 links
@@ -408,8 +413,6 @@ mssql
 munin
 music
 mx
-mx-a
-mx-b
 mx0
 mx01
 mx02
@@ -417,13 +420,18 @@ mx03
 mx1
 mx2
 mx3
+mx-a
+mx-b
 my
+mydetailsreset
+myncistaff
 mysql
 mysql2
 n
 nagios
 nas
 nat
+nci360
 nelson
 neon
 net
@@ -440,6 +448,7 @@ newsite
 newsletter
 nl
 noc
+norma
 novell
 ns
 ns0
@@ -477,6 +486,7 @@ operations
 ops
 ora
 oracle
+oracleweb
 origin
 orion
 os
@@ -522,8 +532,8 @@ pp
 ppp
 pr
 pre-prod
-pre-production
 preprod
+pre-production
 press
 preview
 private
@@ -626,6 +636,7 @@ sslvpn
 sso
 st
 staff
+staffmail
 stage
 staging
 start
@@ -671,6 +682,7 @@ tracker
 tracking
 train
 training
+trap
 travel
 ts
 tunnel
@@ -759,7 +771,6 @@ ww1
 ww2
 ww3
 www
-www-test
 www0
 www01
 www02
@@ -773,10 +784,11 @@ www6
 www7
 wwwm
 wwwold
+www-test
 wwww
 x
 xml
 zabbix
 zeus
 zimbra
-norma
+
